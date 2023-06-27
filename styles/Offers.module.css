@@ -1,0 +1,29 @@
+.container {
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.make_offer {
+  width: 600px;
+  height: 600px;
+  background-color: #ebdaf1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer_container {
+  padding: 20px;
+  margin-top: 50px;
+  width: 450px;
+  height: 100px;
+  background-color: #FFFF;
+  justify-content: space-between;
+  border-radius: 10px;
+  text-align: left;
+}
