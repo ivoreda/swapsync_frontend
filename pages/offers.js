@@ -13,7 +13,7 @@ function Offers() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8000/user/all-offers",
+          "https://swapsync-dev.up.railway.app/user/all-offers",
           {
             headers: {
               // Authorization: `Bearer ${bearerToken}`,
@@ -32,7 +32,7 @@ function Offers() {
 
   const acceptOffer = async (id) => {
     try {
-      const response = await axios.post("http://localhost:8000/user/accept-swap-offer", {
+      const response = await axios.post("https://swapsync-dev.up.railway.app/user/accept-swap-offer", {
         method: "POST",
         headers:{
           "Content-Type": "application/json",
